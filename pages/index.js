@@ -32,10 +32,10 @@ function Home() {
               hidden: { opacity: 0, y: 20 }
             }}
             transition={{ duration: 1 }}
-            className="rounded bg-yellow-50 relative h-80 group cursor-pointer">
-            <div className="absolute top-0 w-full h-full overflow-hidden rounded">
-              <div className="bg-blend-multiply bg-gray-500 absolute h-full w-full top-0 opacity-40 rounded z-10"></div>
-              <img src="https://images.unsplash.com/photo-1566235514140-af6ae28a8971?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" className="h-full w-full object-cover rounded group-hover:scale-110 transition" />
+            className="rounded-xl bg-yellow-50 relative h-80 group cursor-pointer">
+            <div className="absolute top-0 w-full h-full overflow-hidden rounded-xl">
+              <div className="bg-blend-multiply bg-gray-500 absolute h-full w-full top-0 opacity-40 rounded-xl z-10"></div>
+              <img src="https://images.unsplash.com/photo-1566235514140-af6ae28a8971?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" className="h-full w-full object-cover rounded-xl group-hover:scale-110 transition" />
             </div>
             <div className="absolute bottom-0 px-4 py-6 text-white w-full z-20 h-40 flex flex-col justify-between">
               <div>
@@ -45,10 +45,10 @@ function Home() {
               <a className="text-sm font-bold cursor-pointer group-hover:underline">Find out more →</a>
             </div>
           </motion.div>
-          <div className="rounded bg-yellow-50 relative h-80 group cursor-pointer">
-            <div className="absolute top-0 w-full h-full overflow-hidden rounded">
-              <div className="bg-blend-multiply bg-gray-500 absolute h-full w-full top-0 opacity-40 rounded z-10"></div>
-              <img src="https://images.unsplash.com/photo-1640340434868-6877662a809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" className="h-full w-full object-cover rounded group-hover:scale-110 transition" />
+          <div className="rounded-xl bg-yellow-50 relative h-80 group cursor-pointer">
+            <div className="absolute top-0 w-full h-full overflow-hidden rounded-xl">
+              <div className="bg-blend-multiply bg-gray-500 absolute h-full w-full top-0 opacity-40 rounded-xl z-10"></div>
+              <img src="https://images.unsplash.com/photo-1640340434868-6877662a809f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=928&q=80" className="h-full w-full object-cover rounded-xl group-hover:scale-110 transition" />
             </div>
             <div className="absolute bottom-0 px-4 py-6 text-white w-full z-20 h-40 flex flex-col justify-between">
               <div>
@@ -58,10 +58,10 @@ function Home() {
               <a className="text-sm font-bold cursor-pointer group-hover:underline">Find out more →</a>
             </div>
           </div>
-          <div className="rounded bg-yellow-50 relative h-80 group cursor-pointer">
-            <div className="absolute top-0 w-full h-full overflow-hidden rounded">
-              <div className="bg-blend-multiply bg-gray-500 absolute h-full w-full top-0 opacity-40 rounded z-10"></div>
-              <img src="https://images.unsplash.com/photo-1610737249253-1405407a33ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" className="h-full w-full object-cover rounded group-hover:scale-110 transition" />
+          <div className="rounded-xl bg-yellow-50 relative h-80 group cursor-pointer">
+            <div className="absolute top-0 w-full h-full overflow-hidden rounded-xl">
+              <div className="bg-blend-multiply bg-gray-500 absolute h-full w-full top-0 opacity-40 rounded-xl z-10"></div>
+              <img src="https://images.unsplash.com/photo-1610737249253-1405407a33ad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80" className="h-full w-full object-cover rounded-xl group-hover:scale-110 transition" />
             </div>
             <div className="absolute bottom-0 px-4 py-6 text-white w-full z-20 h-40 flex flex-col justify-between">
               <div>
@@ -102,10 +102,10 @@ function Home() {
             visible: { opacity: 1 },
             hidden: { opacity: 0 }
           }}
-          className="flex-1 text-gray-700 text-center bg-gray-400 p-5 m-2 rounded">
+          className="flex-1 text-gray-700 text-center bg-gray-400 p-5 m-2 rounded-xl">
           <div className="md:flex md:items-center">
             <div className="md:flex-shrink-0">
-              <img src="./vercel.svg" className="rounded-lg lg:w-64" />
+              <img src="./vercel.svg" className="rounded-xl-lg lg:w-64" />
             </div>
             <div className="mt-4 md:mt-0 md:ml-6">
               <div className="uppercase tracking-wide text-sm text-indigo-600 font-bold">Blockchain</div>
@@ -114,10 +114,10 @@ function Home() {
           </div>
         </motion.div>
 
-        <div className="flex-1 text-gray-700 text-center bg-gray-400 p-5 m-2 rounded">
+        <div className="flex-1 text-gray-700 text-center bg-gray-400 p-5 m-2 rounded-xl">
           <div className="md:flex md:items-center">
             <div className="md:flex-shrink-0">
-              <img src="./vercel.svg" className="rounded-lg lg:w-64" />
+              <img src="./vercel.svg" className="rounded-xl-lg lg:w-64" />
             </div>
             <div className="mt-4 md:mt-0 md:ml-6">
               <div className="uppercase tracking-wide text-sm text-indigo-600 font-bold">Blockchain</div>

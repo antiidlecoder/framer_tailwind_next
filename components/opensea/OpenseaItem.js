@@ -21,7 +21,7 @@ function OpenseaItem({ collection }) {
 
 
     return (
-        <div className="flex p-6 bg-white rounded shadow-xl items-center flex-col sm:flex-row cursor-pointer group">
+        <div className="flex p-6 bg-white rounded-xl shadow-xl items-center flex-col sm:flex-row cursor-pointer group">
             <div className="flex-shrink-0 flex items-center">
                 <img src={collection.image_url} className="h-20 w-20 rounded-full object-cover transition group-hover:rotate-45" />
             </div>

@@ -27,7 +27,7 @@ function OpenseaList(props) {
     }
 
     async function loadAssets() {
-        const response = await fetch("https://api.opensea.io/api/v1/assets?token_ids=295&token_ids=102&asset_contract_address=0x8a90cab2b38dba80c64b7734e58ee1db38b8992e&order_direction=desc&offset=0&limit=20")
+        const response = await fetch("https://api.opensea.io/api/v1/assets?token_ids=295&token_ids=102&token_ids=413&asset_contract_address=0x8a90cab2b38dba80c64b7734e58ee1db38b8992e&order_direction=desc&offset=0&limit=20")
         const assets = await response.json();
         setAssets(assets);
         console.log(assets);

@@ -34,7 +34,7 @@ function Banner() {
                             initial={{ visibility: 'hidden', opacity: 0 }}
                             animate={{ visibility: 'visible', opacity: 1 }}
                             transition={{ ease: "easeIn", duration: 1, delay: 5 }}>
-                            <button className="bg-blue-600 hover:bg-blue-700 transition font-bold uppercase tracking-wider px-5 py-3 rounded block mt-12">3xplore</button>
+                            <button className="bg-blue-600 hover:bg-blue-700 transition font-bold uppercase tracking-wider px-8 py-3 rounded-full block mt-12">3xplore</button>
                         </motion.div>
                     </div>
                 </div>
